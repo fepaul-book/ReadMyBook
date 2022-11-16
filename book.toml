@@ -2,5 +2,13 @@
 authors = ["fepaul"]
 language = "en"
 multilingual = false
+description="This book contains all important information for the project ReadMyBook - A simple book to speech scanner app for android smartphones."
 src = "src"
 title = "ReadMyBook"
+
+[output.html]
+git-repository-url = "https://fepaul-book.github.io"
+git-repository-icon = "fa-code-fork"
+
+[build]
+build-dir = "docs"

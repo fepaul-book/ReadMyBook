@@ -2,4 +2,4 @@
 
 - [Introduction](./chapter_1.md)
 
-- [Workflow](./contributors.md)
+- [Contribute](./contributors.md)
