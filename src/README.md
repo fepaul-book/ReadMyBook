@@ -161,7 +161,8 @@ Siehe [hier](https://fepaul-book.github.io/ReadMyBook) für eine umfangreiche An
 - Kotlin as programming language
 
 ## License
-GNU General Public License 2 or later (GPL-2.0)
+
+under exclusive copyright
 
 ## Projektstatus
 
