@@ -6,25 +6,17 @@
 
 - activate mdbook for documentation
  
-        '''bash
-
-        cd Desktop/app/ReadMyBook/
-
-        mdbook serve --open
-        '''
+    ```bash
+    cd Desktop/app/ReadMyBook/
+    mdbook serve --open
+    ```
 
 - push changes of documentation to github
 
-        '''bash
-    
-        git pull
-
-        git add -A
-
-        git commit -m "changes done"
-
-        git push
-        '''
-
-
-
+    ```bash
+    git pull
+    git add -A
+    git commit -m "changes done"
+    git push
+    ```
+- look if [github page](https://fepaul-book.github.io/ReadMyBook/) updated correctly after 10 minutes

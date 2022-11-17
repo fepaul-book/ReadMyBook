@@ -1,5 +1,5 @@
 # Summary
 
-- [Introduction](./chapter_1.md)
+- [Introduction](./README.md)
 
 - [Contribute](./contributors.md)
