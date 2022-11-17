@@ -2,7 +2,7 @@
 
 - [Introduction](./README.md)
 
-- [Desings](./designs.md)
+- [Designs](./designs.md)
 
 - [Contribute](./contributors.md)
 

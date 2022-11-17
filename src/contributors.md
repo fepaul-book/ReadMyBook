@@ -7,7 +7,7 @@
 - activate mdbook for documentation
  
     ```bash
-    cd Desktop/app/ReadMyBook/
+    cd Desktop/ReadMyBook/
     mdbook serve --open
     ```
 
