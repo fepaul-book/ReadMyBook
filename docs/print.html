@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="contributors.html"><strong aria-hidden="true">2.</strong> Contribute</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="designs.html"><strong aria-hidden="true">2.</strong> Desings</a></li><li class="chapter-item expanded "><a href="contributors.html"><strong aria-hidden="true">3.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="what-i-did.html"><strong aria-hidden="true">4.</strong> What I did</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -147,26 +147,23 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="readmybook"><a class="header" href="#readmybook">ReadMyBook</a></h1>
-<p><img src="img/1.jpg" alt="Logo der Website" /></p>
+<p><img src="data/1.jpg" alt="Logo der Website" /></p>
 <h2 id="wie-du-loslegst"><a class="header" href="#wie-du-loslegst">Wie du loslegst</a></h2>
 <p>aktuell gar nicht - später downloade einfach die App im Google Play Store</p>
 <h2 id="name"><a class="header" href="#name">Name</a></h2>
 <p>noch ausdenken</p>
 <h2 id="beschreibung"><a class="header" href="#beschreibung">Beschreibung</a></h2>
 <p>Dieses kleine Projekt ist eine App zum Buch &quot;Mara und Charlotte - Einschulung mit Hindernissen&quot;.</p>
-<p>Die App ermöglicht es Kindern sich das Buch in 4 Modi vorlesen zu lassen.</p>
+<p>Die App ermöglicht es Kindern sich das Buch in 3 Modi vorlesen zu lassen.</p>
 <ol>
 <li>
-<p>Scannen des Covers - Vorlesen des gesamten Buchs mit vom Autor hinterlegter Audio</p>
+<p>Scannen einer beliebigen Seite - Vorlesen des gesamten Buchs mit vom Autor hinterlegter Audio ab der spezifischen Seite</p>
 </li>
 <li>
-<p>Scannen des Inbandes - Vorlesen des gesamten Buchs mittel einer von der Mutter hinterlegten Audio-Datei</p>
+<p>Scannen des hinteren Einbandes und anschließend einer Seite - Vorlesen des Buches für Blinde Personen mit vom Autor hinterlegter Audio ab der spezifischen Seite</p>
 </li>
 <li>
-<p>Scannen einer spezifischen Seite - vorlesen der Seite durch Autor oder Mutter</p>
-</li>
-<li>
-<p>Scannen des hinteren Einbandes - Vorlesen des Buches für Blinde Personen mit vom Autor hinterlegter Audio </p>
+<p>Scannen des Inbandes und anschließend einer Seite - Vorlesen des gesamten Buchs ab dieser Seite mittel einer von der Mutter hinterlegten Audio-Datei </p>
 </li>
 </ol>
 <h2 id="installation"><a class="header" href="#installation">Installation</a></h2>
@@ -177,39 +174,10 @@
 <h3 id="klarissa"><a class="header" href="#klarissa">Klarissa</a></h3>
 <ul>
 <li>
-<p>Navigation ausdenken </p>
-<ul>
-<li>
-<p>was sieht man bei Start der App</p>
-</li>
-<li>
-<p>automatische Auswahl der Modi per gemachtem Scan (für einzelne Seite, Mutteraudio, ganzes Buch kein Problem)</p>
-</li>
-<li>
-<p>wie scannen Blinde? --&gt; lieber Symbol rechts oben für Blinde - wie sieht das aus?</p>
-</li>
-<li>
-<p>was wird bei Abspielen der Audio angezeigt</p>
-</li>
-<li>
-<p>wenn man Single Read Modus hat (nur eine Seite gescannt) soll dann automatisch die folgende Seite gelesen werden? (mein Vorschlag) --&gt; dann benötigt man nur eine Audio und ich merke mir wo die Seite beginnt</p>
-</li>
-<li>
-<p>startet Audio sofort oder erst nach Klicken (ich bin für sofort)</p>
-</li>
-<li>
-<p>was wird angezeigt, wenn eine Seite nicht erkannt wurde - Design einer Fehlermeldung</p>
-</li>
-</ul>
-</li>
-<li>
 <p>Audios aufnehmen</p>
 <ul>
 <li>
 <p>einmal vom ganzen Buch in einer Audio</p>
-</li>
-<li>
-<p>(einmal in einzelnen Audios pro Seite)</p>
 </li>
 <li>
 <p>einmal in einer Audio für das gesamte Buch für Blinde Personen (Beschreibung was man sieht - nicht nur Text)</p>
@@ -220,25 +188,36 @@
 <p>Name der App ausdenken (das wird auf Home Bildschirm angezeigt) --&gt; evtl. ReadMyBook?</p>
 </li>
 <li>
-<p>Design eines Hintergrundbildes das bei Start der App angezeigt wird</p>
+<p>Design App Logo für Home Bildschirm </p>
 </li>
 <li>
-<p>Design App Logo für Home Bildschirm </p>
+<p>Hilfeseite für Seite vor/ zurück designen</p>
+</li>
+<li>
+<p>Design der zu scannenden Bereiche</p>
+<ul>
+<li>
+<p>meine Eltern lesen mir vor (Eltern mit Kind in Bett)</p>
+</li>
+<li>
+<p>Oh man ist es hier dunkel! (Blindenmodus)</p>
+</li>
+</ul>
 </li>
 <li>
 <p>evtl. Buttondesign</p>
 </li>
 </ul>
-<h3 id="felix"><a class="header" href="#felix">Felix</a></h3>
+<h3 id="felix-programmierplan"><a class="header" href="#felix-programmierplan">Felix/ Programmierplan</a></h3>
 <ul>
 <li>
-<p>erst möglich nach Besprechung des Nutzungsablaufs --&gt; diesen KONKRET aufschreiben (Ablaufplan)</p>
-</li>
-<li>
-<p>library ocr reinlesen</p>
+<p>library ocr reinlesen (hat die kamera zugriff drin?)</p>
 </li>
 <li>
 <p>zugriff auf Kamera implementieren</p>
+</li>
+<li>
+<p>erster test ob texterkennung gut - print auf Bildschirm</p>
 </li>
 <li>
 <p>Veröffentlichung in Android Store testen</p>
@@ -247,7 +226,7 @@
 <p>String Vergleichsmöglichkeiten die Fehler erlauben evaluieren</p>
 </li>
 <li>
-<p>if then else Audio abspielen</p>
+<p>if then else Audio abspielen oder fail screen</p>
 </li>
 <li>
 <p>beim wischen nach rechts eine Seite vor gehen</p>
@@ -262,31 +241,118 @@
 <p>Doppelklick zum erneuten Starten der Audio an gleicher Stelle (wenn dann nach rechts/links - fahre Audio fort, setze counter der weiß ob pausiert wurde zurück)</p>
 </li>
 <li>
-<p>Anzeige auf welcher Seite man ist unten in Leiste</p>
+<p>Hilfebutton anzeigen/ beenden - Audio anhalten</p>
+</li>
+</ul>
+<h3 id="programmablaufplan"><a class="header" href="#programmablaufplan">Programmablaufplan</a></h3>
+<ul>
+<li>
+<p>Start der App öffnet direkt die Kamera</p>
 </li>
 <li>
-<p>Scannen des Bilds deiner Mutter mit Text &quot;Mama liest&quot;, dadurch wird die Audio der Mutter abgespielt</p>
+<p>machen eines Bildes per Knopfdruck </p>
+<ul>
+<li>
+<p>wenn Seite gescannt spiele Autoraudio ab ab richtiger Stelle (if then else für jede Seite) (Modus 1)</p>
 </li>
 <li>
-<p>Scannen eines kleinen Textes, sodass Mutter Sound aufnehmen kann</p>
+<p>zur Auswahl der richtigen Audio ist String Vergleich zwischen echtem Buch und dem Scan notwendig, um die richtige Buchseite zu identifizieren, dazu wird OCR (Texterkennung) genutzt und eine Fehlermetrik namens <a href="https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance">Jaro-Winkler-Distanz</a></p>
 </li>
 <li>
-<p>Audio aufnehmen implementieren, wenn Seite fertig klick, nächste Seite, am Ende Übersicht aller Seiten, kann nochmal eine spezielle Seite aufnehmen</p>
+<p>extra Behandlung der letzten Buchseite bei String Vergleich weil da die Schrift geschwunden ist (kann aber sein dass das auch gut erkannt wird)</p>
 </li>
 <li>
-<p>mit speichern werden alle Audios gespeichert</p>
+<p>wenn Blind oder Mutter gescannt gehe nur in den Modus ohne Audio abzuspielen (analog zu Modus 1)</p>
 </li>
 <li>
-<p>neues speichern der Audios ist nur für alle Audios auf einmal möglich - lösche einfach alle bestehenden</p>
+<p>wenn Cover gescannt gehe in Autoren-Modus und spiele sofort ab</p>
 </li>
 <li>
-<p>Nach dem Scannen soll Bildschirm dunkel werden?  FOKUSSIERUNG AUF BUCH statt auf App!</p>
+<p>Audio abspielen in den nicht Autoren-Modi erst nachdem man die richtige Seite zum starten gescannt hat</p>
 </li>
+</ul>
+</li>
+<li>
+<p>wenn Scan failed - zeige Icon mit Fragezeichen - und Knopf darunter um neuen Scan zu starten</p>
+<ul>
+<li>wenn Modus vorher gescannt und nochmal Modus gescannt - überschreibe alten Modus (setze Modus einfach sobald man den entsprechenden Text scannt)</li>
+</ul>
+</li>
+<li>
+<p>während Abspielen der Audio sieht man Icon, Wisch und Pausierfunktion aktiv</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p>kleiner Hilfebutton wenn man den drückt sieht man Erklärung zu Wischfunktion (li, re, doppelklick), der Button wird nur angezeigt wenn auch Icon angezeigt wird, und Audio ist so lange pausiert wie Hilfe offen ist (beenden durch x links oben), danach läuft Audio weiter</p>
+</li>
+<li>
+<p>auch Erklärung zu Blindenmodus und Muttermodus (scanne um in den Modus zu gelangen den entsprechenden Text, scanne anschließend die Seite auf der du starten willst)</p>
+</li>
+</ul>
+<hr />
+<ul>
 <li>
 <p>wenn man App minimiert, soll sie auf gleicher Seite fortfahren wo sie wahr (Bildschirm noch an)</p>
 </li>
 <li>
+<p>Anzeige bei Abspielen der Audio auf welcher Seite man ist</p>
+</li>
+<li>
 <p>Audio soll bei Sperren des Bildschirms weiterlaufen (wenn ganzes Buch gelesen wird)</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p>Modus 1: einspeichern von Audios durch Mutter</p>
+<ul>
+<li>
+<p>lösche bestehende Audio (initial die vom Autor)</p>
+</li>
+<li>
+<p>anzeige hilfe und knopf um fortzufahren</p>
+</li>
+<li>
+<p>öffnen der audio api</p>
+</li>
+<li>
+<p>erstmal ohne Merken der Seitenübergänge, einfach Abspielen der Audio von vorne nach hinten bei Scan der ersten Seite oder einer beliebigen anderen Seite (aber nicht Cover- da wird Autor Audio abgespielt) , daktiviere Wisch Funktion dann</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p>Modus 2 für Mutter</p>
+<ul>
+<li>
+<p>bei klick startet aufnahme, bei weiterem klick pausiert aufnahme</p>
+</li>
+<li>
+<p>alle seiten durchgehen (einfach zählen und automatisch stoppen)</p>
+</li>
+<li>
+<p>fertig </p>
+</li>
+<li>
+<p>abspielmodus audio mutter ab richtiger seite (Modus 2 analog zu  Modus 1)</p>
+</li>
+<li>
+<p>scan des Mutter Textes aktiviert Mutter Modus - und wenn man dann Seite scannt wird sie von Mutter gelesen, außer man scannt Cover - dann wird Autormodus aktiviert</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p>Modus 3: </p>
+<ul>
+<li>Übersichtsmodus für alle Audios wo man dann eine spezifische Audio neu aufnehmen kann</li>
+</ul>
 </li>
 </ul>
 <h2 id="fehlerlog"><a class="header" href="#fehlerlog">Fehlerlog</a></h2>
@@ -309,6 +375,36 @@
 <p>GNU General Public License 2 or later (GPL-2.0)</p>
 <h2 id="projektstatus"><a class="header" href="#projektstatus">Projektstatus</a></h2>
 <p>noch in Bearbeitung</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="designs"><a class="header" href="#designs">Designs</a></h1>
+<h2 id="the-book-pages"><a class="header" href="#the-book-pages">The book pages</a></h2>
+<p><img src="data/Cover.jpg" alt="0" /></p>
+<p><img src="data/2.jpg" alt="2" /></p>
+<p><img src="data/3.jpg" alt="3" /></p>
+<p><img src="data/4.jpg" alt="4" /></p>
+<p><img src="data/5.jpg" alt="5" /></p>
+<p><img src="data/6.jpg" alt="6" /></p>
+<p><img src="data/7.jpg" alt="7" /></p>
+<p><img src="data/8.jpg" alt="8" /></p>
+<p><img src="data/9.jpg" alt="9" /></p>
+<p><img src="data/10.jpg" alt="10" /></p>
+<p><img src="data/11.jpg" alt="11" /></p>
+<p><img src="data/12.jpg" alt="12" /></p>
+<p><img src="data/13.jpg" alt="13" /></p>
+<p><img src="data/14.jpg" alt="14" /></p>
+<p><img src="data/15.jpg" alt="15" /></p>
+<p><img src="data/16.jpg" alt="16" /></p>
+<p><img src="data/17.jpg" alt="17" /></p>
+<p><img src="data/18.jpg" alt="18" /></p>
+<p><img src="data/19.jpg" alt="19" /></p>
+<h2 id="app-special-designs"><a class="header" href="#app-special-designs">App special Designs</a></h2>
+<p><img src="" alt="Name" /></p>
+<p><img src="" alt="App Logo" /></p>
+<p><img src="" alt="Icon" /></p>
+<p><img src="" alt="Icon not found" /></p>
+<p><img src="" alt="Eltern Modus scannen" /></p>
+<p><img src="" alt="Dunkelmodus scannen" /></p>
+<p><img src="" alt="Eltern speichern Audio" /></p>
+<p><img src="" alt="Information Page" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="contribute"><a class="header" href="#contribute">Contribute</a></h1>
 <h2 id="workflow"><a class="header" href="#workflow">Workflow</a></h2>
 <ul>
@@ -331,6 +427,41 @@ git push
 </li>
 <li>
 <p>look if <a href="https://fepaul-book.github.io/ReadMyBook/">github page</a> updated correctly after 10 minutes</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="what-i-did-timeline"><a class="header" href="#what-i-did-timeline">What I did/ Timeline</a></h1>
+<ul>
+<li>
+<p>Suche nach bestehenden Lösungen</p>
+</li>
+<li>
+<p>Vertiefende Suche nach OCR</p>
+</li>
+<li>
+<p>Installation von Android Studio</p>
+</li>
+<li>
+<p>Struktur der App überlegt, was wann wie passieren soll</p>
+</li>
+<li>
+<p>ReadMe Datei angelegt </p>
+<ul>
+<li>
+<p>als Website mit mdbook als Programm (das erstellt automatisch eine Website aus einer Markdown Datei)</p>
+</li>
+<li>
+<p>klare Vorstellung des Ablaufs bei Nutzung der App schriftlich fixiert</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Umfangreiche Weiterbildung zu Programmierung</p>
+</li>
+<li>
+<p>Design aller notwendigen Komponenten + Aufnahme der Audiodateien</p>
+</li>
+<li>
+<p>Programmieren der eigentlichen App </p>
 </li>
 </ul>
 
