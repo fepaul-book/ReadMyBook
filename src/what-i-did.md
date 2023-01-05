@@ -19,3 +19,11 @@
 - Design aller notwendigen Komponenten + Aufnahme der Audiodateien
 
 - Programmieren der eigentlichen App 
+
+---
+
+# Programmieren
+
+- Es wurde die Entwicklungsumgebung Android Studio verwendet. 
+
+- 
